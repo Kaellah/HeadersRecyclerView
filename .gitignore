@@ -1,0 +1,14 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+Будет удалено .gitignore
+Будет удалено build.gradle
+Будет удалено libs/
+Будет удалено proguard-rules.pro
+Будет удалено src/

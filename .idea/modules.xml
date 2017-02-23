@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HeadersRecyclerView.iml" filepath="$PROJECT_DIR$/HeadersRecyclerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headerslib/headerslib.iml" filepath="$PROJECT_DIR$/headerslib/headerslib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple/simple.iml" filepath="$PROJECT_DIR$/simple/simple.iml" />
+    </modules>
+  </component>
+</project>
