@@ -74,7 +74,7 @@ public abstract class HeadersRecyclerViewAdapter<H extends Header<C>, C,
     private List<HeadersWrapper<H, C>> mFlatItemList;
     private List<H> mHeaderItemList;
 
-    public HeadersRecyclerViewAdapter(List<H> headerItemList) {
+    public HeadersRecyclerViewAdapter(@Nullable List<H> headerItemList) {
         mHeaderItemList = headerItemList == null ? new ArrayList<H>(0) : headerItemList;
         mFlatItemList = headerItemList == null ? new ArrayList<HeadersWrapper<H, C>>(0) : generateFlatItemList(headerItemList);
     }
@@ -220,8 +220,8 @@ public abstract class HeadersRecyclerViewAdapter<H extends Header<C>, C,
     }
 
     public void notifyDataChanged(List<H> headerItemList) {
-        mFlatItemList = new ArrayList<>();
-        mFlatItemList = generateFlatItemList(headerItemList);
+        mFlatItemList.clear();
+        mFlatItemList.addAll(generateFlatItemList(headerItemList));
         notifyDataSetChanged();
     }
 
