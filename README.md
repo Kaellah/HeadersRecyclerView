@@ -29,7 +29,7 @@ dependencies {
 
 ### Usage
 
-You need create custom recycler adapter and extands it from HeadersRecyclerViewAdapter.class.
+You need create custom recycler adapter and extends it from HeadersRecyclerViewAdapter.class.
 
 ```java
 public class SimpleAdapter extends HeadersRecyclerViewAdapter<HeaderData, ItemData, ItemView, HeaderView> {
