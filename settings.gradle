@@ -1,1 +1,3 @@
 include ':simple', ':headerslib'
+
+project(':headerslib').projectDir = new File('simple/libs/headerslib')

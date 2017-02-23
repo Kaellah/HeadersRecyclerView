@@ -1,5 +1,9 @@
 apply plugin: 'com.android.application'
 
+buildscript {
+    ext.supportVersion = "25.2.0"
+}
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
@@ -20,5 +24,9 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:25.2.0'
+
+    compile project(":headerslib")
+
+    compile "com.android.support:appcompat-v7:$supportVersion"
+    compile "com.android.support:recyclerview-v7:$supportVersion"
 }
