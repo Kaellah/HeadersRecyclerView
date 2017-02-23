@@ -1,0 +1,1074 @@
+_____________________________________________________________________
++ Program class: android/support/v7/recyclerview/R
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x31
+    = public final class android.support.v7.recyclerview.R extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 23):
+  + Class [android/support/v7/recyclerview/R]
+  + Class [android/support/v7/recyclerview/R$attr]
+  + Class [android/support/v7/recyclerview/R$dimen]
+  + Class [android/support/v7/recyclerview/R$id]
+  + Class [android/support/v7/recyclerview/R$styleable]
+  + Class [java/lang/Object]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + Utf8 [()V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [InnerClasses]
+  + Utf8 [android/support/v7/recyclerview/R]
+  + Utf8 [android/support/v7/recyclerview/R$attr]
+  + Utf8 [android/support/v7/recyclerview/R$dimen]
+  + Utf8 [android/support/v7/recyclerview/R$id]
+  + Utf8 [android/support/v7/recyclerview/R$styleable]
+  + Utf8 [attr]
+  + Utf8 [dimen]
+  + Utf8 [id]
+  + Utf8 [java/lang/Object]
+  + Utf8 [styleable]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public R()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #7
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 1):
+  + Inner classes attribute (count = 4)
+    - InnerClassesInfo:
+      Access flags:  0x19 = public static final 
+      + Class [android/support/v7/recyclerview/R$styleable]
+      + Class [android/support/v7/recyclerview/R]
+      + Utf8 [styleable]
+    - InnerClassesInfo:
+      Access flags:  0x19 = public static final 
+      + Class [android/support/v7/recyclerview/R$id]
+      + Class [android/support/v7/recyclerview/R]
+      + Utf8 [id]
+    - InnerClassesInfo:
+      Access flags:  0x19 = public static final 
+      + Class [android/support/v7/recyclerview/R$dimen]
+      + Class [android/support/v7/recyclerview/R]
+      + Utf8 [dimen]
+    - InnerClassesInfo:
+      Access flags:  0x19 = public static final 
+      + Class [android/support/v7/recyclerview/R$attr]
+      + Class [android/support/v7/recyclerview/R]
+      + Utf8 [attr]
+
+_____________________________________________________________________
++ Program class: android/support/v7/recyclerview/R$attr
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x31
+    = public final class android.support.v7.recyclerview.R$attr extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 32):
+  + Integer [2130771968]
+  + Integer [2130771969]
+  + Integer [2130771970]
+  + Integer [2130771971]
+  + Class [android/support/v7/recyclerview/R]
+  + Class [android/support/v7/recyclerview/R$attr]
+  + Class [java/lang/Object]
+  + Fieldref [android/support/v7/recyclerview/R$attr.layoutManager I]
+  + Fieldref [android/support/v7/recyclerview/R$attr.reverseLayout I]
+  + Fieldref [android/support/v7/recyclerview/R$attr.spanCount I]
+  + Fieldref [android/support/v7/recyclerview/R$attr.stackFromEnd I]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [layoutManager I]
+  + NameAndType [reverseLayout I]
+  + NameAndType [spanCount I]
+  + NameAndType [stackFromEnd I]
+  + Utf8 [()V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [InnerClasses]
+  + Utf8 [android/support/v7/recyclerview/R]
+  + Utf8 [android/support/v7/recyclerview/R$attr]
+  + Utf8 [attr]
+  + Utf8 [java/lang/Object]
+  + Utf8 [layoutManager]
+  + Utf8 [reverseLayout]
+  + Utf8 [spanCount]
+  + Utf8 [stackFromEnd]
+
+Fields (count = 4):
+  + Field:        layoutManager I
+    Access flags: 0x9
+      = public static int layoutManager
+  + Field:        reverseLayout I
+    Access flags: 0x9
+      = public static int reverseLayout
+  + Field:        spanCount I
+    Access flags: 0x9
+      = public static int spanCount
+  + Field:        stackFromEnd I
+    Access flags: 0x9
+      = public static int stackFromEnd
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public R$attr()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #12
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 21, locals = 0, stack = 1):
+      [0] ldc #1
+        + Integer [2130771968]
+      [2] putstatic #8
+        + Fieldref [android/support/v7/recyclerview/R$attr.layoutManager I]
+      [5] ldc #3
+        + Integer [2130771970]
+      [7] putstatic #9
+        + Fieldref [android/support/v7/recyclerview/R$attr.reverseLayout I]
+      [10] ldc #2
+        + Integer [2130771969]
+      [12] putstatic #10
+        + Fieldref [android/support/v7/recyclerview/R$attr.spanCount I]
+      [15] ldc #4
+        + Integer [2130771971]
+      [17] putstatic #11
+        + Fieldref [android/support/v7/recyclerview/R$attr.stackFromEnd I]
+      [20] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 1):
+  + Inner classes attribute (count = 1)
+    - InnerClassesInfo:
+      Access flags:  0x19 = public static final 
+      + Class [android/support/v7/recyclerview/R$attr]
+      + Class [android/support/v7/recyclerview/R]
+      + Utf8 [attr]
+
+_____________________________________________________________________
++ Program class: android/support/v7/recyclerview/R$dimen
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x31
+    = public final class android.support.v7.recyclerview.R$dimen extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 28):
+  + Integer [2130837504]
+  + Integer [2130837505]
+  + Integer [2130837506]
+  + Class [android/support/v7/recyclerview/R]
+  + Class [android/support/v7/recyclerview/R$dimen]
+  + Class [java/lang/Object]
+  + Fieldref [android/support/v7/recyclerview/R$dimen.item_touch_helper_max_drag_scroll_per_frame I]
+  + Fieldref [android/support/v7/recyclerview/R$dimen.item_touch_helper_swipe_escape_max_velocity I]
+  + Fieldref [android/support/v7/recyclerview/R$dimen.item_touch_helper_swipe_escape_velocity I]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [item_touch_helper_max_drag_scroll_per_frame I]
+  + NameAndType [item_touch_helper_swipe_escape_max_velocity I]
+  + NameAndType [item_touch_helper_swipe_escape_velocity I]
+  + Utf8 [()V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [InnerClasses]
+  + Utf8 [android/support/v7/recyclerview/R]
+  + Utf8 [android/support/v7/recyclerview/R$dimen]
+  + Utf8 [dimen]
+  + Utf8 [item_touch_helper_max_drag_scroll_per_frame]
+  + Utf8 [item_touch_helper_swipe_escape_max_velocity]
+  + Utf8 [item_touch_helper_swipe_escape_velocity]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 3):
+  + Field:        item_touch_helper_max_drag_scroll_per_frame I
+    Access flags: 0x9
+      = public static int item_touch_helper_max_drag_scroll_per_frame
+  + Field:        item_touch_helper_swipe_escape_max_velocity I
+    Access flags: 0x9
+      = public static int item_touch_helper_swipe_escape_max_velocity
+  + Field:        item_touch_helper_swipe_escape_velocity I
+    Access flags: 0x9
+      = public static int item_touch_helper_swipe_escape_velocity
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public R$dimen()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #10
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 16, locals = 0, stack = 1):
+      [0] ldc #1
+        + Integer [2130837504]
+      [2] putstatic #7
+        + Fieldref [android/support/v7/recyclerview/R$dimen.item_touch_helper_max_drag_scroll_per_frame I]
+      [5] ldc #2
+        + Integer [2130837505]
+      [7] putstatic #8
+        + Fieldref [android/support/v7/recyclerview/R$dimen.item_touch_helper_swipe_escape_max_velocity I]
+      [10] ldc #3
+        + Integer [2130837506]
+      [12] putstatic #9
+        + Fieldref [android/support/v7/recyclerview/R$dimen.item_touch_helper_swipe_escape_velocity I]
+      [15] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 1):
+  + Inner classes attribute (count = 1)
+    - InnerClassesInfo:
+      Access flags:  0x19 = public static final 
+      + Class [android/support/v7/recyclerview/R$dimen]
+      + Class [android/support/v7/recyclerview/R]
+      + Utf8 [dimen]
+
+_____________________________________________________________________
++ Program class: android/support/v7/recyclerview/R$id
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x31
+    = public final class android.support.v7.recyclerview.R$id extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 20):
+  + Integer [2130903040]
+  + Class [android/support/v7/recyclerview/R]
+  + Class [android/support/v7/recyclerview/R$id]
+  + Class [java/lang/Object]
+  + Fieldref [android/support/v7/recyclerview/R$id.item_touch_helper_previous_elevation I]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [item_touch_helper_previous_elevation I]
+  + Utf8 [()V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [InnerClasses]
+  + Utf8 [android/support/v7/recyclerview/R]
+  + Utf8 [android/support/v7/recyclerview/R$id]
+  + Utf8 [id]
+  + Utf8 [item_touch_helper_previous_elevation]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 1):
+  + Field:        item_touch_helper_previous_elevation I
+    Access flags: 0x9
+      = public static int item_touch_helper_previous_elevation
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public R$id()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #6
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 0, stack = 1):
+      [0] ldc #1
+        + Integer [2130903040]
+      [2] putstatic #5
+        + Fieldref [android/support/v7/recyclerview/R$id.item_touch_helper_previous_elevation I]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 1):
+  + Inner classes attribute (count = 1)
+    - InnerClassesInfo:
+      Access flags:  0x19 = public static final 
+      + Class [android/support/v7/recyclerview/R$id]
+      + Class [android/support/v7/recyclerview/R]
+      + Utf8 [id]
+
+_____________________________________________________________________
++ Program class: android/support/v7/recyclerview/R$styleable
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x31
+    = public final class android.support.v7.recyclerview.R$styleable extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 44):
+  + Integer [16842948]
+  + Integer [16842993]
+  + Integer [2130771968]
+  + Integer [2130771969]
+  + Integer [2130771970]
+  + Integer [2130771971]
+  + Class [android/support/v7/recyclerview/R]
+  + Class [android/support/v7/recyclerview/R$styleable]
+  + Class [java/lang/Object]
+  + Fieldref [android/support/v7/recyclerview/R$styleable.RecyclerView [I]
+  + Fieldref [android/support/v7/recyclerview/R$styleable.RecyclerView_android_descendantFocusability I]
+  + Fieldref [android/support/v7/recyclerview/R$styleable.RecyclerView_android_orientation I]
+  + Fieldref [android/support/v7/recyclerview/R$styleable.RecyclerView_layoutManager I]
+  + Fieldref [android/support/v7/recyclerview/R$styleable.RecyclerView_reverseLayout I]
+  + Fieldref [android/support/v7/recyclerview/R$styleable.RecyclerView_spanCount I]
+  + Fieldref [android/support/v7/recyclerview/R$styleable.RecyclerView_stackFromEnd I]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [RecyclerView [I]
+  + NameAndType [RecyclerView_android_descendantFocusability I]
+  + NameAndType [RecyclerView_android_orientation I]
+  + NameAndType [RecyclerView_layoutManager I]
+  + NameAndType [RecyclerView_reverseLayout I]
+  + NameAndType [RecyclerView_spanCount I]
+  + NameAndType [RecyclerView_stackFromEnd I]
+  + Utf8 [()V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [InnerClasses]
+  + Utf8 [RecyclerView]
+  + Utf8 [RecyclerView_android_descendantFocusability]
+  + Utf8 [RecyclerView_android_orientation]
+  + Utf8 [RecyclerView_layoutManager]
+  + Utf8 [RecyclerView_reverseLayout]
+  + Utf8 [RecyclerView_spanCount]
+  + Utf8 [RecyclerView_stackFromEnd]
+  + Utf8 [[I]
+  + Utf8 [android/support/v7/recyclerview/R]
+  + Utf8 [android/support/v7/recyclerview/R$styleable]
+  + Utf8 [java/lang/Object]
+  + Utf8 [styleable]
+
+Fields (count = 7):
+  + Field:        RecyclerView [I
+    Access flags: 0x9
+      = public static int[] RecyclerView
+  + Field:        RecyclerView_android_descendantFocusability I
+    Access flags: 0x9
+      = public static int RecyclerView_android_descendantFocusability
+  + Field:        RecyclerView_android_orientation I
+    Access flags: 0x9
+      = public static int RecyclerView_android_orientation
+  + Field:        RecyclerView_layoutManager I
+    Access flags: 0x9
+      = public static int RecyclerView_layoutManager
+  + Field:        RecyclerView_reverseLayout I
+    Access flags: 0x9
+      = public static int RecyclerView_reverseLayout
+  + Field:        RecyclerView_spanCount I
+    Access flags: 0x9
+      = public static int RecyclerView_spanCount
+  + Field:        RecyclerView_stackFromEnd I
+    Access flags: 0x9
+      = public static int RecyclerView_stackFromEnd
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public R$styleable()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #17
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 62, locals = 0, stack = 4):
+      [0] bipush 6
+      [2] newarray 10
+      [4] dup
+      [5] iconst_0
+      [6] ldc #1
+        + Integer [16842948]
+      [8] iastore
+      [9] dup
+      [10] iconst_1
+      [11] ldc #2
+        + Integer [16842993]
+      [13] iastore
+      [14] dup
+      [15] iconst_2
+      [16] ldc #3
+        + Integer [2130771968]
+      [18] iastore
+      [19] dup
+      [20] iconst_3
+      [21] ldc #4
+        + Integer [2130771969]
+      [23] iastore
+      [24] dup
+      [25] iconst_4
+      [26] ldc #5
+        + Integer [2130771970]
+      [28] iastore
+      [29] dup
+      [30] iconst_5
+      [31] ldc #6
+        + Integer [2130771971]
+      [33] iastore
+      [34] putstatic #10
+        + Fieldref [android/support/v7/recyclerview/R$styleable.RecyclerView [I]
+      [37] iconst_1
+      [38] putstatic #11
+        + Fieldref [android/support/v7/recyclerview/R$styleable.RecyclerView_android_descendantFocusability I]
+      [41] iconst_0
+      [42] putstatic #12
+        + Fieldref [android/support/v7/recyclerview/R$styleable.RecyclerView_android_orientation I]
+      [45] iconst_2
+      [46] putstatic #13
+        + Fieldref [android/support/v7/recyclerview/R$styleable.RecyclerView_layoutManager I]
+      [49] iconst_4
+      [50] putstatic #14
+        + Fieldref [android/support/v7/recyclerview/R$styleable.RecyclerView_reverseLayout I]
+      [53] iconst_3
+      [54] putstatic #15
+        + Fieldref [android/support/v7/recyclerview/R$styleable.RecyclerView_spanCount I]
+      [57] iconst_5
+      [58] putstatic #16
+        + Fieldref [android/support/v7/recyclerview/R$styleable.RecyclerView_stackFromEnd I]
+      [61] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 1):
+  + Inner classes attribute (count = 1)
+    - InnerClassesInfo:
+      Access flags:  0x19 = public static final 
+      + Class [android/support/v7/recyclerview/R$styleable]
+      + Class [android/support/v7/recyclerview/R]
+      + Utf8 [styleable]
+
+_____________________________________________________________________
++ Program class: com/kaellah/headerslib/R
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x31
+    = public final class com.kaellah.headerslib.R extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 26):
+  + Class [com/kaellah/headerslib/R]
+  + Class [com/kaellah/headerslib/R$attr]
+  + Class [com/kaellah/headerslib/R$dimen]
+  + Class [com/kaellah/headerslib/R$id]
+  + Class [com/kaellah/headerslib/R$string]
+  + Class [com/kaellah/headerslib/R$styleable]
+  + Class [java/lang/Object]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + Utf8 [()V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [InnerClasses]
+  + Utf8 [attr]
+  + Utf8 [com/kaellah/headerslib/R]
+  + Utf8 [com/kaellah/headerslib/R$attr]
+  + Utf8 [com/kaellah/headerslib/R$dimen]
+  + Utf8 [com/kaellah/headerslib/R$id]
+  + Utf8 [com/kaellah/headerslib/R$string]
+  + Utf8 [com/kaellah/headerslib/R$styleable]
+  + Utf8 [dimen]
+  + Utf8 [id]
+  + Utf8 [java/lang/Object]
+  + Utf8 [string]
+  + Utf8 [styleable]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public R()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #8
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 1):
+  + Inner classes attribute (count = 5)
+    - InnerClassesInfo:
+      Access flags:  0x19 = public static final 
+      + Class [com/kaellah/headerslib/R$styleable]
+      + Class [com/kaellah/headerslib/R]
+      + Utf8 [styleable]
+    - InnerClassesInfo:
+      Access flags:  0x19 = public static final 
+      + Class [com/kaellah/headerslib/R$string]
+      + Class [com/kaellah/headerslib/R]
+      + Utf8 [string]
+    - InnerClassesInfo:
+      Access flags:  0x19 = public static final 
+      + Class [com/kaellah/headerslib/R$id]
+      + Class [com/kaellah/headerslib/R]
+      + Utf8 [id]
+    - InnerClassesInfo:
+      Access flags:  0x19 = public static final 
+      + Class [com/kaellah/headerslib/R$dimen]
+      + Class [com/kaellah/headerslib/R]
+      + Utf8 [dimen]
+    - InnerClassesInfo:
+      Access flags:  0x19 = public static final 
+      + Class [com/kaellah/headerslib/R$attr]
+      + Class [com/kaellah/headerslib/R]
+      + Utf8 [attr]
+
+_____________________________________________________________________
++ Program class: com/kaellah/headerslib/R$attr
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x31
+    = public final class com.kaellah.headerslib.R$attr extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 32):
+  + Integer [2130771968]
+  + Integer [2130771969]
+  + Integer [2130771970]
+  + Integer [2130771971]
+  + Class [com/kaellah/headerslib/R]
+  + Class [com/kaellah/headerslib/R$attr]
+  + Class [java/lang/Object]
+  + Fieldref [com/kaellah/headerslib/R$attr.layoutManager I]
+  + Fieldref [com/kaellah/headerslib/R$attr.reverseLayout I]
+  + Fieldref [com/kaellah/headerslib/R$attr.spanCount I]
+  + Fieldref [com/kaellah/headerslib/R$attr.stackFromEnd I]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [layoutManager I]
+  + NameAndType [reverseLayout I]
+  + NameAndType [spanCount I]
+  + NameAndType [stackFromEnd I]
+  + Utf8 [()V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [InnerClasses]
+  + Utf8 [attr]
+  + Utf8 [com/kaellah/headerslib/R]
+  + Utf8 [com/kaellah/headerslib/R$attr]
+  + Utf8 [java/lang/Object]
+  + Utf8 [layoutManager]
+  + Utf8 [reverseLayout]
+  + Utf8 [spanCount]
+  + Utf8 [stackFromEnd]
+
+Fields (count = 4):
+  + Field:        layoutManager I
+    Access flags: 0x9
+      = public static int layoutManager
+  + Field:        reverseLayout I
+    Access flags: 0x9
+      = public static int reverseLayout
+  + Field:        spanCount I
+    Access flags: 0x9
+      = public static int spanCount
+  + Field:        stackFromEnd I
+    Access flags: 0x9
+      = public static int stackFromEnd
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public R$attr()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #12
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 21, locals = 0, stack = 1):
+      [0] ldc #1
+        + Integer [2130771968]
+      [2] putstatic #8
+        + Fieldref [com/kaellah/headerslib/R$attr.layoutManager I]
+      [5] ldc #3
+        + Integer [2130771970]
+      [7] putstatic #9
+        + Fieldref [com/kaellah/headerslib/R$attr.reverseLayout I]
+      [10] ldc #2
+        + Integer [2130771969]
+      [12] putstatic #10
+        + Fieldref [com/kaellah/headerslib/R$attr.spanCount I]
+      [15] ldc #4
+        + Integer [2130771971]
+      [17] putstatic #11
+        + Fieldref [com/kaellah/headerslib/R$attr.stackFromEnd I]
+      [20] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 1):
+  + Inner classes attribute (count = 1)
+    - InnerClassesInfo:
+      Access flags:  0x19 = public static final 
+      + Class [com/kaellah/headerslib/R$attr]
+      + Class [com/kaellah/headerslib/R]
+      + Utf8 [attr]
+
+_____________________________________________________________________
++ Program class: com/kaellah/headerslib/R$dimen
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x31
+    = public final class com.kaellah.headerslib.R$dimen extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 28):
+  + Integer [2130837504]
+  + Integer [2130837505]
+  + Integer [2130837506]
+  + Class [com/kaellah/headerslib/R]
+  + Class [com/kaellah/headerslib/R$dimen]
+  + Class [java/lang/Object]
+  + Fieldref [com/kaellah/headerslib/R$dimen.item_touch_helper_max_drag_scroll_per_frame I]
+  + Fieldref [com/kaellah/headerslib/R$dimen.item_touch_helper_swipe_escape_max_velocity I]
+  + Fieldref [com/kaellah/headerslib/R$dimen.item_touch_helper_swipe_escape_velocity I]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [item_touch_helper_max_drag_scroll_per_frame I]
+  + NameAndType [item_touch_helper_swipe_escape_max_velocity I]
+  + NameAndType [item_touch_helper_swipe_escape_velocity I]
+  + Utf8 [()V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [InnerClasses]
+  + Utf8 [com/kaellah/headerslib/R]
+  + Utf8 [com/kaellah/headerslib/R$dimen]
+  + Utf8 [dimen]
+  + Utf8 [item_touch_helper_max_drag_scroll_per_frame]
+  + Utf8 [item_touch_helper_swipe_escape_max_velocity]
+  + Utf8 [item_touch_helper_swipe_escape_velocity]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 3):
+  + Field:        item_touch_helper_max_drag_scroll_per_frame I
+    Access flags: 0x9
+      = public static int item_touch_helper_max_drag_scroll_per_frame
+  + Field:        item_touch_helper_swipe_escape_max_velocity I
+    Access flags: 0x9
+      = public static int item_touch_helper_swipe_escape_max_velocity
+  + Field:        item_touch_helper_swipe_escape_velocity I
+    Access flags: 0x9
+      = public static int item_touch_helper_swipe_escape_velocity
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public R$dimen()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #10
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 16, locals = 0, stack = 1):
+      [0] ldc #1
+        + Integer [2130837504]
+      [2] putstatic #7
+        + Fieldref [com/kaellah/headerslib/R$dimen.item_touch_helper_max_drag_scroll_per_frame I]
+      [5] ldc #2
+        + Integer [2130837505]
+      [7] putstatic #8
+        + Fieldref [com/kaellah/headerslib/R$dimen.item_touch_helper_swipe_escape_max_velocity I]
+      [10] ldc #3
+        + Integer [2130837506]
+      [12] putstatic #9
+        + Fieldref [com/kaellah/headerslib/R$dimen.item_touch_helper_swipe_escape_velocity I]
+      [15] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 1):
+  + Inner classes attribute (count = 1)
+    - InnerClassesInfo:
+      Access flags:  0x19 = public static final 
+      + Class [com/kaellah/headerslib/R$dimen]
+      + Class [com/kaellah/headerslib/R]
+      + Utf8 [dimen]
+
+_____________________________________________________________________
++ Program class: com/kaellah/headerslib/R$id
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x31
+    = public final class com.kaellah.headerslib.R$id extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 20):
+  + Integer [2130903040]
+  + Class [com/kaellah/headerslib/R]
+  + Class [com/kaellah/headerslib/R$id]
+  + Class [java/lang/Object]
+  + Fieldref [com/kaellah/headerslib/R$id.item_touch_helper_previous_elevation I]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [item_touch_helper_previous_elevation I]
+  + Utf8 [()V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [InnerClasses]
+  + Utf8 [com/kaellah/headerslib/R]
+  + Utf8 [com/kaellah/headerslib/R$id]
+  + Utf8 [id]
+  + Utf8 [item_touch_helper_previous_elevation]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 1):
+  + Field:        item_touch_helper_previous_elevation I
+    Access flags: 0x9
+      = public static int item_touch_helper_previous_elevation
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public R$id()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #6
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 0, stack = 1):
+      [0] ldc #1
+        + Integer [2130903040]
+      [2] putstatic #5
+        + Fieldref [com/kaellah/headerslib/R$id.item_touch_helper_previous_elevation I]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 1):
+  + Inner classes attribute (count = 1)
+    - InnerClassesInfo:
+      Access flags:  0x19 = public static final 
+      + Class [com/kaellah/headerslib/R$id]
+      + Class [com/kaellah/headerslib/R]
+      + Utf8 [id]
+
+_____________________________________________________________________
++ Program class: com/kaellah/headerslib/R$string
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x31
+    = public final class com.kaellah.headerslib.R$string extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 20):
+  + Integer [2130968576]
+  + Class [com/kaellah/headerslib/R]
+  + Class [com/kaellah/headerslib/R$string]
+  + Class [java/lang/Object]
+  + Fieldref [com/kaellah/headerslib/R$string.app_name I]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [app_name I]
+  + Utf8 [()V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [InnerClasses]
+  + Utf8 [app_name]
+  + Utf8 [com/kaellah/headerslib/R]
+  + Utf8 [com/kaellah/headerslib/R$string]
+  + Utf8 [java/lang/Object]
+  + Utf8 [string]
+
+Fields (count = 1):
+  + Field:        app_name I
+    Access flags: 0x9
+      = public static int app_name
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public R$string()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #6
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 0, stack = 1):
+      [0] ldc #1
+        + Integer [2130968576]
+      [2] putstatic #5
+        + Fieldref [com/kaellah/headerslib/R$string.app_name I]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 1):
+  + Inner classes attribute (count = 1)
+    - InnerClassesInfo:
+      Access flags:  0x19 = public static final 
+      + Class [com/kaellah/headerslib/R$string]
+      + Class [com/kaellah/headerslib/R]
+      + Utf8 [string]
+
+_____________________________________________________________________
++ Program class: com/kaellah/headerslib/R$styleable
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x31
+    = public final class com.kaellah.headerslib.R$styleable extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 44):
+  + Integer [16842948]
+  + Integer [16842993]
+  + Integer [2130771968]
+  + Integer [2130771969]
+  + Integer [2130771970]
+  + Integer [2130771971]
+  + Class [com/kaellah/headerslib/R]
+  + Class [com/kaellah/headerslib/R$styleable]
+  + Class [java/lang/Object]
+  + Fieldref [com/kaellah/headerslib/R$styleable.RecyclerView [I]
+  + Fieldref [com/kaellah/headerslib/R$styleable.RecyclerView_android_descendantFocusability I]
+  + Fieldref [com/kaellah/headerslib/R$styleable.RecyclerView_android_orientation I]
+  + Fieldref [com/kaellah/headerslib/R$styleable.RecyclerView_layoutManager I]
+  + Fieldref [com/kaellah/headerslib/R$styleable.RecyclerView_reverseLayout I]
+  + Fieldref [com/kaellah/headerslib/R$styleable.RecyclerView_spanCount I]
+  + Fieldref [com/kaellah/headerslib/R$styleable.RecyclerView_stackFromEnd I]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [RecyclerView [I]
+  + NameAndType [RecyclerView_android_descendantFocusability I]
+  + NameAndType [RecyclerView_android_orientation I]
+  + NameAndType [RecyclerView_layoutManager I]
+  + NameAndType [RecyclerView_reverseLayout I]
+  + NameAndType [RecyclerView_spanCount I]
+  + NameAndType [RecyclerView_stackFromEnd I]
+  + Utf8 [()V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [InnerClasses]
+  + Utf8 [RecyclerView]
+  + Utf8 [RecyclerView_android_descendantFocusability]
+  + Utf8 [RecyclerView_android_orientation]
+  + Utf8 [RecyclerView_layoutManager]
+  + Utf8 [RecyclerView_reverseLayout]
+  + Utf8 [RecyclerView_spanCount]
+  + Utf8 [RecyclerView_stackFromEnd]
+  + Utf8 [[I]
+  + Utf8 [com/kaellah/headerslib/R]
+  + Utf8 [com/kaellah/headerslib/R$styleable]
+  + Utf8 [java/lang/Object]
+  + Utf8 [styleable]
+
+Fields (count = 7):
+  + Field:        RecyclerView [I
+    Access flags: 0x19
+      = public static final int[] RecyclerView
+  + Field:        RecyclerView_android_descendantFocusability I
+    Access flags: 0x9
+      = public static int RecyclerView_android_descendantFocusability
+  + Field:        RecyclerView_android_orientation I
+    Access flags: 0x9
+      = public static int RecyclerView_android_orientation
+  + Field:        RecyclerView_layoutManager I
+    Access flags: 0x9
+      = public static int RecyclerView_layoutManager
+  + Field:        RecyclerView_reverseLayout I
+    Access flags: 0x9
+      = public static int RecyclerView_reverseLayout
+  + Field:        RecyclerView_spanCount I
+    Access flags: 0x9
+      = public static int RecyclerView_spanCount
+  + Field:        RecyclerView_stackFromEnd I
+    Access flags: 0x9
+      = public static int RecyclerView_stackFromEnd
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public R$styleable()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #17
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 62, locals = 0, stack = 4):
+      [0] bipush 6
+      [2] newarray 10
+      [4] dup
+      [5] iconst_0
+      [6] ldc #1
+        + Integer [16842948]
+      [8] iastore
+      [9] dup
+      [10] iconst_1
+      [11] ldc #2
+        + Integer [16842993]
+      [13] iastore
+      [14] dup
+      [15] iconst_2
+      [16] ldc #3
+        + Integer [2130771968]
+      [18] iastore
+      [19] dup
+      [20] iconst_3
+      [21] ldc #4
+        + Integer [2130771969]
+      [23] iastore
+      [24] dup
+      [25] iconst_4
+      [26] ldc #5
+        + Integer [2130771970]
+      [28] iastore
+      [29] dup
+      [30] iconst_5
+      [31] ldc #6
+        + Integer [2130771971]
+      [33] iastore
+      [34] putstatic #10
+        + Fieldref [com/kaellah/headerslib/R$styleable.RecyclerView [I]
+      [37] iconst_1
+      [38] putstatic #11
+        + Fieldref [com/kaellah/headerslib/R$styleable.RecyclerView_android_descendantFocusability I]
+      [41] iconst_0
+      [42] putstatic #12
+        + Fieldref [com/kaellah/headerslib/R$styleable.RecyclerView_android_orientation I]
+      [45] iconst_2
+      [46] putstatic #13
+        + Fieldref [com/kaellah/headerslib/R$styleable.RecyclerView_layoutManager I]
+      [49] iconst_4
+      [50] putstatic #14
+        + Fieldref [com/kaellah/headerslib/R$styleable.RecyclerView_reverseLayout I]
+      [53] iconst_3
+      [54] putstatic #15
+        + Fieldref [com/kaellah/headerslib/R$styleable.RecyclerView_spanCount I]
+      [57] iconst_5
+      [58] putstatic #16
+        + Fieldref [com/kaellah/headerslib/R$styleable.RecyclerView_stackFromEnd I]
+      [61] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 1):
+  + Inner classes attribute (count = 1)
+    - InnerClassesInfo:
+      Access flags:  0x19 = public static final 
+      + Class [com/kaellah/headerslib/R$styleable]
+      + Class [com/kaellah/headerslib/R]
+      + Utf8 [styleable]
+
