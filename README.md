@@ -6,7 +6,7 @@ Simple library with implemented headers in RecyclerView.
 
 ### Dependency
 
-Include the dependency [Download (.aar)](http://git.rollncode.com/ta/whatsapp_media_library/raw/18b893a1324657133598575e87bd3a39b8832168/release/library-release.aar) and place it in your libs directory:
+Include the dependency [Download (.aar)](https://github.com/Kaellah/HeadersRecyclerView/raw/master/simple/libs/headerslib/build/outputs/aar/headerslib-release.aar) and place it in your libs directory:
 
 ```groovy
 allprojects {
