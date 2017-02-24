@@ -1,8 +1,0 @@
-com.kaellah.headerslib.BuildConfig
-com.kaellah.headerslib.adapter.HeadersRecyclerViewAdapter
-com.kaellah.headerslib.adapter.HeadersRecyclerViewAdapter$CommonViewHolder
-com.kaellah.headerslib.adapter.HeadersRecyclerViewAdapter$HeaderViewHolder
-com.kaellah.headerslib.adapter.HeadersRecyclerViewAdapter$ItemViewHolder
-com.kaellah.headerslib.interfaces.DataEntity
-com.kaellah.headerslib.interfaces.Header
-com.kaellah.headerslib.utils.HeadersWrapper
