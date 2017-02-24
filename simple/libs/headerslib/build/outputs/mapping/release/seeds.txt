@@ -1,0 +1,42 @@
+android.support.v7.recyclerview.R
+android.support.v7.recyclerview.R$attr
+android.support.v7.recyclerview.R$attr: int layoutManager
+android.support.v7.recyclerview.R$attr: int reverseLayout
+android.support.v7.recyclerview.R$attr: int spanCount
+android.support.v7.recyclerview.R$attr: int stackFromEnd
+android.support.v7.recyclerview.R$dimen
+android.support.v7.recyclerview.R$dimen: int item_touch_helper_max_drag_scroll_per_frame
+android.support.v7.recyclerview.R$dimen: int item_touch_helper_swipe_escape_max_velocity
+android.support.v7.recyclerview.R$dimen: int item_touch_helper_swipe_escape_velocity
+android.support.v7.recyclerview.R$id
+android.support.v7.recyclerview.R$id: int item_touch_helper_previous_elevation
+android.support.v7.recyclerview.R$styleable
+android.support.v7.recyclerview.R$styleable: int[] RecyclerView
+android.support.v7.recyclerview.R$styleable: int RecyclerView_android_descendantFocusability
+android.support.v7.recyclerview.R$styleable: int RecyclerView_android_orientation
+android.support.v7.recyclerview.R$styleable: int RecyclerView_layoutManager
+android.support.v7.recyclerview.R$styleable: int RecyclerView_reverseLayout
+android.support.v7.recyclerview.R$styleable: int RecyclerView_spanCount
+android.support.v7.recyclerview.R$styleable: int RecyclerView_stackFromEnd
+com.kaellah.headerslib.R
+com.kaellah.headerslib.R$attr
+com.kaellah.headerslib.R$attr: int layoutManager
+com.kaellah.headerslib.R$attr: int reverseLayout
+com.kaellah.headerslib.R$attr: int spanCount
+com.kaellah.headerslib.R$attr: int stackFromEnd
+com.kaellah.headerslib.R$dimen
+com.kaellah.headerslib.R$dimen: int item_touch_helper_max_drag_scroll_per_frame
+com.kaellah.headerslib.R$dimen: int item_touch_helper_swipe_escape_max_velocity
+com.kaellah.headerslib.R$dimen: int item_touch_helper_swipe_escape_velocity
+com.kaellah.headerslib.R$id
+com.kaellah.headerslib.R$id: int item_touch_helper_previous_elevation
+com.kaellah.headerslib.R$string
+com.kaellah.headerslib.R$string: int app_name
+com.kaellah.headerslib.R$styleable
+com.kaellah.headerslib.R$styleable: int[] RecyclerView
+com.kaellah.headerslib.R$styleable: int RecyclerView_android_descendantFocusability
+com.kaellah.headerslib.R$styleable: int RecyclerView_android_orientation
+com.kaellah.headerslib.R$styleable: int RecyclerView_layoutManager
+com.kaellah.headerslib.R$styleable: int RecyclerView_reverseLayout
+com.kaellah.headerslib.R$styleable: int RecyclerView_spanCount
+com.kaellah.headerslib.R$styleable: int RecyclerView_stackFromEnd
